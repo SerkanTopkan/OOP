@@ -1,6 +1,5 @@
 ﻿namespace HelloWorld
 {
-
     class BaseProduct
     {
         public int Id { get; set; }
