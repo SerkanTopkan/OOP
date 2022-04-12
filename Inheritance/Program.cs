@@ -37,7 +37,7 @@
             };
 
 
-            Console.WriteLine("Phone Brand:{0} - Model:{1} - ScreenSize:{2}", Iphone.Brand, Iphone.Model, Iphone.ScreenSize);
+            Console.WriteLine("Phone Brand:{0} - Model:{1} - Screen Size:{2}", Iphone.Brand, Iphone.Model, Iphone.ScreenSize);
             Console.WriteLine("Mouse Brand:{0} - Model:{1} - DPI:{2}", GM41.Brand, GM41.Model, GM41.Dpi);
 
         }
