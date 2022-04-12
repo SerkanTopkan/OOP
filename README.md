@@ -31,3 +31,9 @@ Bu soyutlamayı başlı başına ayrı konular olan Interface(arayüz) ve Abstra
 
 ## POLYMORPHİSM (ÇOK BİÇİMCİLİK)
 **Çok biçimlilik** en basit tanımıyla; bir nesnenin birden fazla nesle gibi davranma şeklidir. Bir sınıf başka bir sınıftan türetildiğinde tüm özelliklerini miras alır. Türemiş sınıf içinde türetilen sınıftan gelen bazı özellikleri değiştirmek isteyebiliriz (ve yapabiliriz de). Sınıfın miras aldığı özelliklerin değiştirilebilmesine -ve nesne üzerinden çağrılabilmesine çok biçimlilik denir.
+
+**2 tür polimorphism (çok biçimlilik) vardır;**
+
+Compile Time Polymorphism (Derleme Zamanı Çok Biçimlilik)
+
+Runtime Polymorphism (Çalışma Zamanı Çok Biçimlilik)
