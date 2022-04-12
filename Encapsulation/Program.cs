@@ -1,6 +1,5 @@
 ﻿namespace Parent
 {
-
     public class A
     {
         public A()
