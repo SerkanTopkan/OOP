@@ -1,18 +1,19 @@
 ﻿namespace HelloWorld
 {
-    class Vehicle
+    class BaseProduct
     {
+        public int Id { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
     }
 
-    class Car : Vehicle
+    class Phone : BaseProduct
     {
-        public int NumberOfWheels { get; set; }
+        public double ScreenSize { get; set; }
     }
-    class Aeroplane : Vehicle
+    class Mouse : BaseProduct
     {
-        public int NumberOfFlap { get; set; }
+        public int Dpi { get; set; }
     }
 
 
@@ -20,24 +21,24 @@
     {
         static void Main(string[] args)
         {
-            Car Bmw = new Car()
+            Phone Iphone = new Phone()
             {
-                Brand = "BMW",
-                Model = "3.16",
-                NumberOfWheels = 4
+                Brand = "Apple",
+                Model = "Iphone 12",
+                ScreenSize = 4.7
 
             };
 
-            Aeroplane Boeing737 = new Aeroplane()
+            Mouse GM41 = new Mouse()
             {
-                Brand = "Boeing",
-                Model = "737",
-                NumberOfFlap = 2
+                Brand = "MSI",
+                Model = "GM41",
+                Dpi = 2000
             };
 
 
-            Console.WriteLine("Car Brand:{0} - Model:{1} - Number Of Wheels:{2}", Bmw.Brand, Bmw.Model, Bmw.NumberOfWheels);
-            Console.WriteLine("Aeroplane Brand:{0} - Model:{1} - Number Of Flap:{2}", Boeing737.Brand, Boeing737.Model, Boeing737.NumberOfFlap);
+            Console.WriteLine("Phone Brand:{0} - Model:{1} - Number Of Wheels:{2}", Iphone.Brand, Iphone.Model, Iphone.ScreenSize);
+            Console.WriteLine("Mouse Brand:{0} - Model:{1} - Number Of Flap:{2}", GM41.Brand, GM41.Model, GM41.Dpi);
 
         }
     }
